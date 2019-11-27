@@ -1,0 +1,94 @@
+/* * {
+    margin:3px;
+} */
+/* form {
+    font-size: 20px;
+} */
+
+
+
+nav{
+    text-align: right;
+}
+
+input {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.img-container {
+    width: 400px;
+    height: 300px;
+}
+
+.img-container img {
+    width: 100%;
+    height: auto;
+}
+
+input {
+    /* width: 500px; */
+    height: 40px;
+}
+
+
+#map {
+    width: 100%;
+    height: 550px;
+    background-color: grey;
+    margin: 7px;
+  }
+
+.col-md-4 {
+    margin:0;
+}
+
+.panel-body {
+    max-height: 10;
+}
+
+a {
+    text-decoration: none;
+}
+
+#index-title {
+    text-align: center;
+}
+
+.btn {
+    margin: 5px;
+}
+
+.show {
+    margin: 5px;
+}
+
+.index-hours {
+    text-align:right;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.index-add {
+    font-size: 18px;
+    color: #48494d;
+}
+
+.headings {
+    color: #48494d;
+
+}
+
+label {
+    font-weight: bold;
+}
+
+#index-a {
+    text-decoration: none;
+}
+
+.card {
+    max-height: 490px;
+    overflow-y: scroll;
+}
