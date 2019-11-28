@@ -6,6 +6,7 @@ const data = require('./models/data.js');
 //include the method-override package place this where you instructor places it
 const methodOverride = require('method-override');
 const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/basiccrud'
+const Port = process.env.PORT || 3000
 
 app.set('view engine', 'jsx');
 app.engine('jsx', require('express-react-views').createEngine());
@@ -216,6 +217,6 @@ app.get('/happy', async (req, res) => {
   });
 
 
-app.listen(3000, ()=>{
+app.listen(Port, ()=>{
     console.log('listening');
 });
