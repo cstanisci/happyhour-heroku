@@ -17,7 +17,7 @@ class AppLayout extends React.Component{
        {/* This is where our other components will be injected */}
           {this.props.children}
           <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAh9s0vi2SVmoC5S9B67Q0d-xoL43p4QRE&callback=initMap">
+            src="https://maps.googleapis.com/maps/api/js?key=(KEYHERE)&callback=initMap">
           </script>
         </body>
     </html>
