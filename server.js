@@ -77,7 +77,7 @@ app.put('/happy/:id', (req, res)=>{
 });
 
 // SEED DATA
-app.get('/happy', async (req, res) => {
+app.get('/happy/seed', async (req, res) => {
     const seedHappyHour =
     [
       {
