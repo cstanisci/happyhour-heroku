@@ -77,7 +77,7 @@ app.put('/happy/:id', (req, res)=>{
 });
 
 // SEED DATA
-app.get('/happy', async (req, res) => {
+app.get('/happy/seed', async (req, res) => {
     const seedHappyHour =
     [
       {
@@ -209,11 +209,14 @@ app.get('/happy', async (req, res) => {
     ]
 
     try {
-      const seedItems = await Happyhour.create(seedHappyHour)
-      res.send(seedItems)
+       await Happyhour.deleteMany({});
+       const response = await Happyhour.collection.insertMany(seedHappyHour);    
+    })
+      res.send(response)
     } catch (err) {
       res.send(err.message)
     }
+    
   });
 
 
